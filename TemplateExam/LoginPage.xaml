@@ -22,20 +22,21 @@
             Margin="0,209,0,0"
             HorizontalAlignment="Center"
             VerticalAlignment="Top"
-            Content="Вход" Click="Button_Click_1" />
+            Content="Вход" Click="Button_Click_Login" />
         <Button
             Width="80"
             Height="35"
             Margin="0,269,0,0"
             HorizontalAlignment="Center"
             VerticalAlignment="Top"
-            Content="Регистрация" Click="Button_Click" />
+            Content="Регистрация" Click="Button_Click_Register" />
         <Label
             Margin="0,82,0,0"
             HorizontalAlignment="Center"
             VerticalAlignment="Top"
             Content="Логин" />
         <TextBox
+            x:Name="LoginBox"
             Width="120"
             Margin="0,113,0,0"
             HorizontalAlignment="Center"
@@ -47,6 +48,7 @@
             VerticalAlignment="Top"
             Content="Пароль" />
         <PasswordBox
+            x:Name="PasswordBox"
             Width="120"
             Margin="0,178,0,0"
             HorizontalAlignment="Center"
