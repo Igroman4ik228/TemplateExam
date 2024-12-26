@@ -1,0 +1,74 @@
+﻿<Page
+    x:Class="TemplateExam.RegisterPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:local="clr-namespace:TemplateExam"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    Title="RegisterPage"
+    d:DesignHeight="450"
+    d:DesignWidth="800"
+    mc:Ignorable="d">
+
+    <Grid>
+        <Label
+            Margin="0,10,0,0"
+            HorizontalAlignment="Center"
+            VerticalAlignment="Top"
+            Content="Фамилия" />
+        <TextBox
+            Width="120"
+            Margin="0,41,0,0"
+            HorizontalAlignment="Center"
+            VerticalAlignment="Top"
+            TextWrapping="Wrap" />
+
+        <Label
+            Margin="0,64,0,0"
+            HorizontalAlignment="Center"
+            VerticalAlignment="Top"
+            Content="Имя" />
+        <TextBox
+            Width="120"
+            Margin="0,95,0,0"
+            HorizontalAlignment="Center"
+            VerticalAlignment="Top"
+            TextWrapping="Wrap" />
+
+        <Label
+            Margin="0,118,0,0"
+            HorizontalAlignment="Center"
+            VerticalAlignment="Top"
+            Content="Email (логин)" />
+        <TextBox
+            Width="120"
+            Margin="0,149,0,0"
+            HorizontalAlignment="Center"
+            VerticalAlignment="Top"
+            TextWrapping="Wrap" />
+
+        <Label
+            Margin="0,172,0,0"
+            HorizontalAlignment="Center"
+            VerticalAlignment="Top"
+            Content="Пароль" />
+        <PasswordBox
+            Width="120"
+            Margin="0,203,0,0"
+            HorizontalAlignment="Center"
+            VerticalAlignment="Top" />
+        <Button
+            Width="120"
+            Height="30"
+            Margin="0,265,0,0"
+            HorizontalAlignment="Center"
+            VerticalAlignment="Top"
+            Content="Зарегистрироваться" />
+        <Button
+            Width="46"
+            Margin="37,21,0,0"
+            HorizontalAlignment="Left"
+            VerticalAlignment="Top"
+            Content="Назад" Click="Button_Click" />
+    </Grid>
+</Page>
