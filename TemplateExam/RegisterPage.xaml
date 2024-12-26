@@ -17,6 +17,7 @@
             VerticalAlignment="Top"
             Content="Фамилия" />
         <TextBox
+            x:Name="LastNameBox"
             Width="120"
             Margin="0,41,0,0"
             HorizontalAlignment="Center"
@@ -24,51 +25,77 @@
             TextWrapping="Wrap" />
 
         <Label
-            Margin="0,64,0,0"
+            Margin="0,71,0,0"
             HorizontalAlignment="Center"
             VerticalAlignment="Top"
             Content="Имя" />
         <TextBox
+            x:Name="FirstNameBox"
             Width="120"
-            Margin="0,95,0,0"
+            Margin="0,102,0,0"
             HorizontalAlignment="Center"
             VerticalAlignment="Top"
             TextWrapping="Wrap" />
 
         <Label
-            Margin="0,118,0,0"
+            Margin="0,192,0,0"
             HorizontalAlignment="Center"
             VerticalAlignment="Top"
             Content="Email (логин)" />
         <TextBox
+            x:Name="EmailBox"
             Width="120"
-            Margin="0,149,0,0"
             HorizontalAlignment="Center"
             VerticalAlignment="Top"
-            TextWrapping="Wrap" />
+            TextWrapping="Wrap" Margin="0,223,0,0" />
 
         <Label
-            Margin="0,172,0,0"
+            Margin="0,246,0,0"
             HorizontalAlignment="Center"
             VerticalAlignment="Top"
             Content="Пароль" />
         <PasswordBox
+            x:Name="PasswordBox"
             Width="120"
-            Margin="0,203,0,0"
+            Margin="0,277,0,0"
             HorizontalAlignment="Center"
             VerticalAlignment="Top" />
         <Button
             Width="120"
             Height="30"
-            Margin="0,265,0,0"
+            Margin="0,369,0,0"
             HorizontalAlignment="Center"
             VerticalAlignment="Top"
-            Content="Зарегистрироваться" />
+            Content="Зарегистрироваться" 
+            Click="Button_Click_Register"/>
         <Button
             Width="46"
             Margin="37,21,0,0"
             HorizontalAlignment="Left"
             VerticalAlignment="Top"
             Content="Назад" Click="Button_Click" />
+        <TextBox
+            x:Name="MiddleNameBox"
+            Width="120"
+            Margin="0,162,0,0"
+            HorizontalAlignment="Center"
+            VerticalAlignment="Top"
+            TextWrapping="Wrap" />
+        <Label
+            Margin="0,131,0,0"
+            HorizontalAlignment="Center"
+            VerticalAlignment="Top"
+            Content="Отчество" />
+        <TextBox
+            x:Name="PhoneBox"
+            Width="120"
+            HorizontalAlignment="Center"
+            VerticalAlignment="Top"
+            TextWrapping="Wrap" Margin="0,331,0,0" />
+        <Label
+            Margin="0,300,0,0"
+            HorizontalAlignment="Center"
+            VerticalAlignment="Top"
+            Content="Телефон" />
     </Grid>
 </Page>
